@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--My journal-->
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>My Journal</title>
+		<style>	
+		#container {
+				position:  relative;
+				height:  800px;
+				width:  auto;
+				border: none;
+				margin:  auto;
+
+			}
+			#header {
+				position:  absolute;
+				width: 100%;
+				height:  100px;
+				
+			}
+			#topnav {
+				position:  absolute;
+				width: 38%;
+				height:  100px;
+				right: 43%;
+				top: 100px;
+			
+			}
+			#weather {
+				position:  absolute;
+				width: 43%;
+				height:  101px;
+				right: 0%;
+				top: 100px;
+			
+			}
+			#sidenav {
+				position: absolute;
+				width: 19%;
+				height: 600px;
+				top: 100px;
+				
+			}
+			#content {
+				position: absolute;
+				width: 62%;
+				height: 500px;
+				right: 19%;
+				top: 200px;				
+			}
+			#music {
+				position: absolute;
+				width: 19%;
+				height: 200px;
+				top: 200px;
+				right: 0px;}
+			#calender {
+				position: absolute;
+				width: 19%;
+				height: 300px;
+				bottom: 100px;
+				right: 0px;}
+			#footer {
+				position: absolute;
+				width: 100%;
+				height: 100px;
+				top: 700px;
+			}
+		
+				
+
+		</style>
+	</head>
+	
+	<body>
+		<div id="container">
+
+
+			<div id="header">
+				<iframe src = "timesheader.html" name="header" title="Header" width="100%" height = "100%" scrolling="no"style="border-top:10px solid #7B3F00;">
+			<!-- Message is displayed is browser doesn't support iframes-->
+			         Sorry, your browser does not support inline frames.
+			      </iframe>
+			</div>
+
+			
+			<div id="weather">
+				<iframe src = "weather.html" name="weather" title="Weather" width= "100%" height = "100%" scrolling="yes"style="border-top:5px solid #7B3F00;">
+			         Sorry, your browser does not support inline frames.
+				</iframe>	
+			</div>
+			<div id="sidenav">
+				<iframe src = "sidenav.html" name="sidenav" title="Side Navigation Menu" width= "100%" height = "100%" scrolling="no"style="border-top:5px solid #7B3F00;">
+			         Sorry, your browser does not support inline frames.
+				</iframe>	
+			</div>
+			
+			<div id="content">
+				<iframe src = "content.html" name="content" title="Content" width= "100%" height = "100%" scrolling="yes"style="border:none;">
+			         Sorry, your browser does not support inline frames.
+				</iframe>	
+			</div>
+			
+			<div id="footer">
+				<iframe src="footer.html" name="footer" title="Footer" width="100%" height="100%"style="border:none;">
+			         Sorry, your browser does not support inline frames.
+				</iframe>
+			</div>
+			
+			<div id="calender">
+				<iframe src="calender.html" name="calender" title="Calender" width="100%" height="100%"style="border:none;">
+			         Sorry, your browser does not support inline frames.
+				</iframe>	
+			</div>
+			
+			<div id="topnav">
+				<iframe src="topnav.html" name="topnav" title="Top Nav" width="100%" height="100%"style="border-top:5px solid #7B3F00;">
+			         Sorry, your browser does not support inline frames.
+				</iframe>	
+			</div>
+			
+			<div id="music" style="background-color: #7B3F00;">
+					
+			<iframe style="margin-top: 10px; overflow:hidden"align="right"width="99%" height="70%" src="https://www.youtube.com/embed/JCaR6hHnM3U" title="c o f f e e ☕️ [morning lofi mix to listen while drink coffee]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+
+			
+		</div>
+
+	</body>
+</html>
